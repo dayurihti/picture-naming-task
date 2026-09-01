@@ -10,5 +10,6 @@ Participant is asked to name picture appeared on each trials, based on the langu
 
 **NOTES**
 
-1. When opening PsychoPy builder, please open the microphone settings on each trials, and set up the recording device you want to use properly.
-2. You can adjust the language cue (on the "language_cue" folder) with the other country flags based on your research needs.
+1. Please run the task on PsychoPy 25.2.0 (beta) because the task is sensitive with the software version. 
+2. When opening PsychoPy builder, please open the microphone settings on each trials, and set up the recording device you want to use properly.
+3. You can adjust the language cue (on the "language_cue" folder) with the other country flags based on your research needs.
