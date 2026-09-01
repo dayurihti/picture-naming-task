@@ -1,0 +1,1653 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.2.0">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '&quot;001&quot;'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="True" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[1,1,1]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="PICTURE_NAMING_TASK" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="instruction">
+      <RoutineSettingsComponent name="instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_instruction" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_instruction" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Anda akan melihat gambar pada setiap trial.&amp;#10;Sebutkan nama gambar tersebut secara lisan SEAKURAT mungkin.&amp;#10;&amp;#10;Jika muncul bendera Indonesia, jawab dengan Bahasa Indonesia.&amp;#10;Jika muncul bendera Inggris, jawab dengan Bahasa Inggris.&amp;#10;&amp;#10;Tekan spasi untuk melanjutkan." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practice_block">
+      <RoutineSettingsComponent name="practice_block" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_block" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_practice_block" plugin="None">
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_practice_block" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Blok pertama adalah blok latihan.&amp;#10;INGAT: jawab seakurat mungkin.&amp;#10;&amp;#10;Tekan spasi untuk melanjutkan." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practice_dot_EN">
+      <RoutineSettingsComponent name="practice_dot_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_dot_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="practice_fixationdot_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="practice_fixationdot_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="practice_picstim_EN">
+      <RoutineSettingsComponent name="practice_picstim_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_picstim_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_languagecue_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_practice_EN" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_languagecue_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="practice_picturestimuli_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_practice_EN" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_picturestimuli_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="practice_EN_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_EN_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="practice_blank_EN">
+      <RoutineSettingsComponent name="practice_blank_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_blank_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_blankscreen_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_blankscreen_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="dot_EN">
+      <RoutineSettingsComponent name="dot_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="dot_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixationdot_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixationdot_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="picstim_EN">
+      <RoutineSettingsComponent name="picstim_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="picstim_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="languagecue_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_EN" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="languagecue_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="picturestimuli_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_EN" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="picturestimuli_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="EN_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="EN_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="blank_EN">
+      <RoutineSettingsComponent name="blank_EN" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank_EN" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="blankscreen_EN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="blankscreen_EN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="switching_block">
+      <RoutineSettingsComponent name="switching_block" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="switching_block" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_switching_block" plugin="None">
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_switching_block" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_2" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="DD;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="breakDuration = 31&amp;#10;countdown = breakDuration" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="remaining = int(breakDuration - t)&amp;#10;countdown = max(remaining, 0)&amp;#10;&amp;#10;text_switching_block.setText(&amp;#10;    &quot;Selamat, Anda telah menyelesaikan blok non-switching!\n\n&quot;&amp;#10;    &quot;Setelah jeda istirahat, Anda akan mengerjakan blok switching.\n&quot;&amp;#10;    &quot;Ikuti kode bendera Indonesia dan Inggris seperti sebelumnya.\n\n&quot;&amp;#10;    f&quot;Jeda istirahat dalam {countdown} detik&quot;&amp;#10;)&amp;#10;&amp;#10;if t &gt;= breakDuration:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="nonswitching_block">
+      <RoutineSettingsComponent name="nonswitching_block" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="nonswitching_block" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_nonswitching_block" plugin="None">
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_nonswitching_block" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="breakDuration = 30;&amp;#10;breakClock.reset();&amp;#10;countdown = breakDuration;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="breakDuration = 31&amp;#10;countdown = breakDuration" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="remaining = int(breakDuration - t)&amp;#10;countdown = max(remaining, 0)&amp;#10;&amp;#10;text_nonswitching_block.setText(&amp;#10;    &quot;Selamat, Anda telah menyelesaikan blok latihan!\n\n&quot;&amp;#10;    &quot;Setelah jeda istirahat, Anda akan mengerjakan blok non-switching.\n&quot;&amp;#10;    &quot;Jangan lupa mengikuti kode bendera Indonesia dan Inggris.\n\n&quot;&amp;#10;    f&quot;Jeda istirahat dalam {countdown} detik&quot;&amp;#10;)&amp;#10;&amp;#10;if t &gt;= breakDuration:&amp;#10;    continueRoutine = False&amp;#10;   " valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="remaining = Number.parseInt((breakDuration - breakClock.getTime()));&amp;#10;countdown = Math.max(remaining, 0);&amp;#10;if ((breakClock.getTime() &gt;= breakDuration)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="experiment_end">
+      <RoutineSettingsComponent name="experiment_end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="experiment_end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="$(-1.0000, -1.0000, -1.0000)" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Selamat, Anda telah menyelesaikan tugas ini!&amp;#10;Terima kasih atas partisipasi Anda.&amp;#10;&amp;#10;Tekan spasi untuk keluar." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practice_dot_ID">
+      <RoutineSettingsComponent name="practice_dot_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_dot_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="practice_fixationdot_IN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="practice_fixationdot_IN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="practice_picstim_ID">
+      <RoutineSettingsComponent name="practice_picstim_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_picstim_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_languagecue_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_practice_ID" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_languagecue_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="practice_picturestimuli_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_practice_ID" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_picturestimuli_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="practice_ID_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_ID_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="practice_blank_ID">
+      <RoutineSettingsComponent name="practice_blank_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_blank_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_blankscreen_IN" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_blankscreen_IN" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="practice_picstim_SWITCHING">
+      <RoutineSettingsComponent name="practice_picstim_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_picstim_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_languagecue_SWITCHING" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_practice_SWITCHING" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_languagecue_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="practice_picturestimuli_SWITCHING" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_practice_SWITCHING" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_picturestimuli_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="practice_SWITCHING_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_SWITCHING_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="practice_dot_SWITCHING">
+      <RoutineSettingsComponent name="practice_dot_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_dot_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="practice_fixationdot_SWITCH" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="practice_fixationdot_SWITCH" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="practice_blank_SWITCHING">
+      <RoutineSettingsComponent name="practice_blank_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_blank_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="practice_blankscreen_SWITCHING" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="practice_blankscreen_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="dot_ID">
+      <RoutineSettingsComponent name="dot_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="dot_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixationdot_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixationdot_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="picstim_ID">
+      <RoutineSettingsComponent name="picstim_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="picstim_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="languagecue_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_ID" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="languagecue_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="picturestimuli_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_ID" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="picturestimuli_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="ID_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="ID_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="blank_ID">
+      <RoutineSettingsComponent name="blank_ID" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank_ID" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="blankscreen_ID" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="blankscreen_ID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="picstim_SWITCHING">
+      <RoutineSettingsComponent name="picstim_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="picstim_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="languagecue_SWITCHING" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_lc_SWITCHING" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="languagecue_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.15, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="picturestimuli_SWITCHING" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path_ps_SWITCHING" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="picturestimuli_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.04)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.6, 0.6)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <MicrophoneComponent name="SWITCHING_response" plugin="None">
+        <Param val="usethis" valType="device" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="SWITCHING_response" valType="code" updates="None" name="name"/>
+        <Param val="wav" valType="code" updates="None" name="outputType"/>
+        <Param val="warn" valType="str" updates="set every repeat" name="policyWhenFull"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="False" valType="bool" updates="None" name="speakTimes"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="False" valType="bool" updates="None" name="transcribe"/>
+        <Param val="none" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
+        <Param val="auto" valType="code" updates="None" name="transcribeWhisperDevice"/>
+        <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
+        <Param val="" valType="list" updates="None" name="transcribeWords"/>
+        <Param val="False" valType="bool" updates="None" name="trimSilent"/>
+      </MicrophoneComponent>
+    </Routine>
+    <Routine name="dot_SWITCHING">
+      <RoutineSettingsComponent name="dot_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="dot_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixationdot_MIX" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="black" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$(0.0000, 0.0000, 0.0000)" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixationdot_MIX" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="blank_SWITCHING">
+      <RoutineSettingsComponent name="blank_SWITCHING" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank_SWITCHING" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="blankscreen_SWITCH" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="blankscreen_SWITCH" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction"/>
+    <Routine name="practice_block"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_ID_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_practice_ID': 'PICTURE_7', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_7', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_2', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_2', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_1', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_1', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_6', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_6', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_5', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_5', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_8', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_8', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_3', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_3', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}, {'picture_stimuli_practice_ID': 'PICTURE_4', 'path_ps_practice_ID': 'final_picture_stimuli/PICTURE_4', 'language_cue_practice_ID': 'ID', 'path_lc_practice_ID': 'language_cue/ID'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_practice_ID.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_ID_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practice_dot_ID"/>
+    <Routine name="practice_picstim_ID"/>
+    <Routine name="practice_blank_ID"/>
+    <LoopTerminator name="practice_ID_block"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_EN_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_practice_EN': 'PICTURE_2', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_1', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_7', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_5', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_3', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_3', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_5', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_5', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_6', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_6', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_8', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_8', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_1', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_1', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}, {'picture_stimuli_practice_EN': 'PICTURE_4', 'path_ps_practice_EN': 'final_picture_stimuli/PICTURE_4', 'language_cue_practice_EN': 'EN', 'path_lc_practice_EN': 'language_cue/EN'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_practice_EN.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_EN_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practice_dot_EN"/>
+    <Routine name="practice_picstim_EN"/>
+    <Routine name="practice_blank_EN"/>
+    <LoopTerminator name="practice_EN_block"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_SWITCHING_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_practice_SWITCHING': 'PICTURE_6', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_6', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_8', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_8', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_7', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_7', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_4', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_4', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_5', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_5', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_2', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_2', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_1', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_1', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_3', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_3', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_5', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_5', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_7', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_7', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_1', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_1', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_6', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_6', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_8', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_8', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_2', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_2', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_3', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_3', 'language_cue_practice_SWITCHING': 'EN', 'path_lc_practice_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_practice_SWITCHING': 'PICTURE_4', 'path_ps_practice_SWITCHING': 'final_picture_stimuli/PICTURE_4', 'language_cue_practice_SWITCHING': 'ID', 'path_lc_practice_SWITCHING': 'language_cue/ID'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_practice_SWITCHING.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_SWITCHING_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practice_dot_SWITCHING"/>
+    <Routine name="practice_picstim_SWITCHING"/>
+    <Routine name="practice_blank_SWITCHING"/>
+    <LoopTerminator name="practice_SWITCHING_block"/>
+    <Routine name="nonswitching_block"/>
+    <LoopInitiator loopType="TrialHandler" name="ID_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_ID': 'PICTURE_18', 'path_ps_ID': 'final_picture_stimuli/PICTURE_18', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_20', 'path_ps_ID': 'final_picture_stimuli/PICTURE_20', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_12', 'path_ps_ID': 'final_picture_stimuli/PICTURE_12', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_31', 'path_ps_ID': 'final_picture_stimuli/PICTURE_31', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_28', 'path_ps_ID': 'final_picture_stimuli/PICTURE_28', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_29', 'path_ps_ID': 'final_picture_stimuli/PICTURE_29', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_33', 'path_ps_ID': 'final_picture_stimuli/PICTURE_33', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_39', 'path_ps_ID': 'final_picture_stimuli/PICTURE_39', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_25', 'path_ps_ID': 'final_picture_stimuli/PICTURE_25', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_32', 'path_ps_ID': 'final_picture_stimuli/PICTURE_32', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_24', 'path_ps_ID': 'final_picture_stimuli/PICTURE_24', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_40', 'path_ps_ID': 'final_picture_stimuli/PICTURE_40', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_9', 'path_ps_ID': 'final_picture_stimuli/PICTURE_9', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_36', 'path_ps_ID': 'final_picture_stimuli/PICTURE_36', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_30', 'path_ps_ID': 'final_picture_stimuli/PICTURE_30', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_22', 'path_ps_ID': 'final_picture_stimuli/PICTURE_22', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_26', 'path_ps_ID': 'final_picture_stimuli/PICTURE_26', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_16', 'path_ps_ID': 'final_picture_stimuli/PICTURE_16', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_17', 'path_ps_ID': 'final_picture_stimuli/PICTURE_17', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_19', 'path_ps_ID': 'final_picture_stimuli/PICTURE_19', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_13', 'path_ps_ID': 'final_picture_stimuli/PICTURE_13', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_15', 'path_ps_ID': 'final_picture_stimuli/PICTURE_15', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_37', 'path_ps_ID': 'final_picture_stimuli/PICTURE_37', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_10', 'path_ps_ID': 'final_picture_stimuli/PICTURE_10', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_34', 'path_ps_ID': 'final_picture_stimuli/PICTURE_34', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_38', 'path_ps_ID': 'final_picture_stimuli/PICTURE_38', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_14', 'path_ps_ID': 'final_picture_stimuli/PICTURE_14', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_11', 'path_ps_ID': 'final_picture_stimuli/PICTURE_11', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_23', 'path_ps_ID': 'final_picture_stimuli/PICTURE_23', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_35', 'path_ps_ID': 'final_picture_stimuli/PICTURE_35', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_27', 'path_ps_ID': 'final_picture_stimuli/PICTURE_27', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}, {'picture_stimuli_ID': 'PICTURE_21', 'path_ps_ID': 'final_picture_stimuli/PICTURE_21', 'language_cue_ID': 'ID', 'path_lc_ID': 'language_cue/ID'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_ID.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="ID_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dot_ID"/>
+    <Routine name="picstim_ID"/>
+    <Routine name="blank_ID"/>
+    <LoopTerminator name="ID_block"/>
+    <LoopInitiator loopType="TrialHandler" name="EN_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_EN': 'PICTURE_13', 'path_ps_EN': 'final_picture_stimuli/PICTURE_13', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_16', 'path_ps_EN': 'final_picture_stimuli/PICTURE_16', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_21', 'path_ps_EN': 'final_picture_stimuli/PICTURE_21', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_25', 'path_ps_EN': 'final_picture_stimuli/PICTURE_25', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_36', 'path_ps_EN': 'final_picture_stimuli/PICTURE_36', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_32', 'path_ps_EN': 'final_picture_stimuli/PICTURE_32', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_17', 'path_ps_EN': 'final_picture_stimuli/PICTURE_17', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_24', 'path_ps_EN': 'final_picture_stimuli/PICTURE_24', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_40', 'path_ps_EN': 'final_picture_stimuli/PICTURE_40', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_33', 'path_ps_EN': 'final_picture_stimuli/PICTURE_33', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_34', 'path_ps_EN': 'final_picture_stimuli/PICTURE_34', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_37', 'path_ps_EN': 'final_picture_stimuli/PICTURE_37', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_20', 'path_ps_EN': 'final_picture_stimuli/PICTURE_20', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_27', 'path_ps_EN': 'final_picture_stimuli/PICTURE_27', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_18', 'path_ps_EN': 'final_picture_stimuli/PICTURE_18', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_35', 'path_ps_EN': 'final_picture_stimuli/PICTURE_35', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_15', 'path_ps_EN': 'final_picture_stimuli/PICTURE_15', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_19', 'path_ps_EN': 'final_picture_stimuli/PICTURE_19', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_23', 'path_ps_EN': 'final_picture_stimuli/PICTURE_23', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_10', 'path_ps_EN': 'final_picture_stimuli/PICTURE_10', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_26', 'path_ps_EN': 'final_picture_stimuli/PICTURE_26', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_38', 'path_ps_EN': 'final_picture_stimuli/PICTURE_38', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_22', 'path_ps_EN': 'final_picture_stimuli/PICTURE_22', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_12', 'path_ps_EN': 'final_picture_stimuli/PICTURE_12', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_39', 'path_ps_EN': 'final_picture_stimuli/PICTURE_39', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_28', 'path_ps_EN': 'final_picture_stimuli/PICTURE_28', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_11', 'path_ps_EN': 'final_picture_stimuli/PICTURE_11', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_14', 'path_ps_EN': 'final_picture_stimuli/PICTURE_14', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_31', 'path_ps_EN': 'final_picture_stimuli/PICTURE_31', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_30', 'path_ps_EN': 'final_picture_stimuli/PICTURE_30', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_29', 'path_ps_EN': 'final_picture_stimuli/PICTURE_29', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}, {'picture_stimuli_EN': 'PICTURE_9', 'path_ps_EN': 'final_picture_stimuli/PICTURE_9', 'language_cue_EN': 'EN', 'path_lc_EN': 'language_cue/EN'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_EN.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="EN_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dot_EN"/>
+    <Routine name="picstim_EN"/>
+    <Routine name="blank_EN"/>
+    <LoopTerminator name="EN_block"/>
+    <Routine name="switching_block"/>
+    <LoopInitiator loopType="TrialHandler" name="SWITCHING_block">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'picture_stimuli_SWITCHING': 'PICTURE_29', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_29', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_39', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_39', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_37', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_37', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_28', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_28', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_20', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_20', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_15', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_15', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_18', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_18', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_12', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_12', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_26', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_26', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_36', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_36', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_24', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_24', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_34', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_34', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_10', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_10', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_16', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_16', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_31', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_31', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_11', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_11', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_21', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_21', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_23', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_23', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_14', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_14', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_38', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_38', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_25', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_25', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_35', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_35', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_27', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_27', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_9', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_9', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_22', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_22', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_40', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_40', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_32', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_32', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_30', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_30', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_33', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_33', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_19', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_19', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_17', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_17', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_13', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_13', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_37', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_37', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_29', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_29', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_30', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_30', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_40', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_40', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_25', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_25', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_24', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_24', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_28', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_28', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_11', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_11', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_19', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_19', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_39', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_39', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_17', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_17', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_14', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_14', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_35', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_35', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_38', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_38', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_33', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_33', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_32', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_32', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_34', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_34', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_13', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_13', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_27', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_27', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_15', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_15', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_18', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_18', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_31', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_31', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_9', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_9', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_22', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_22', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_36', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_36', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_26', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_26', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_21', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_21', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_12', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_12', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_23', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_23', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}, {'picture_stimuli_SWITCHING': 'PICTURE_20', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_20', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_16', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_16', 'language_cue_WITCHING': 'EN', 'path_lc_SWITCHING': 'language_cue/EN'}, {'picture_stimuli_SWITCHING': 'PICTURE_10', 'path_ps_SWITCHING': 'final_picture_stimuli/PICTURE_10', 'language_cue_WITCHING': 'ID', 'path_lc_SWITCHING': 'language_cue/ID'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="condition/condition_SWITCHING.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="SWITCHING_block" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="dot_SWITCHING"/>
+    <Routine name="picstim_SWITCHING"/>
+    <Routine name="blank_SWITCHING"/>
+    <LoopTerminator name="SWITCHING_block"/>
+    <Routine name="experiment_end"/>
+  </Flow>
+</PsychoPy2experiment>
